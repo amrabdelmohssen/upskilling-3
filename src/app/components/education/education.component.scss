@@ -1,0 +1,29 @@
+section {
+     padding-top: 4em;
+     padding-left: 2vw;
+     padding-bottom: 9em;
+     .accordion .accordion-item {
+          &:not(:first-of-type) {
+               margin-top: 10px !important;
+          }
+          button {
+               background-color: #f2f3f7;
+               &:not(.collapsed) {
+                    color: #FFF;
+                    background-color: #2c98f0;
+                    &::after {
+                         content: "-";
+                    }
+               }
+               &::after {
+                    content: "+";
+                    font-size: 22px;
+                    background-image: none;
+                    transform: translateY(-15%);
+               }
+          }
+          ul {
+               list-style: disc;
+          }
+     }
+}

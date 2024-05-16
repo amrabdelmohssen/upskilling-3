@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+ul {
+     margin: 0px;
+     list-style: none;
+}
+a {
+     color: unset;
+     text-decoration: none;
+}
+body {
+     color: rgb(0 0 0 / 70%);
+     font-family: "Quicksand", sans-serif;
+}
+.title {
+     font-size: 18px;
+     font-weight: 700;
+     margin-bottom: 4em;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+     font-family: "Playfair Display", Georgia, serif;
+}
+.sub-title {
+     color: #999;
+     display: block;
+     font-size: 10px;
+     font-weight: 500;
+     margin-bottom: 15px;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+}

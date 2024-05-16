@@ -1,0 +1,44 @@
+aside {
+     min-height: 100vh;
+     background-color: #F2F3F7;
+     div {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 30px;
+     }
+     h2 {
+          color: black;
+          font-size: 22px;
+          font-weight: 700;
+          font-family: "Playfair Display", serif;
+     }
+     p {
+          font-size: 12px;
+          margin-bottom: 24px;
+          span {
+               color: #2c98f0;
+          }
+     }
+     ul {
+          margin-bottom: 20px;
+          li {
+               padding-block: 5px;
+               a {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: rgb(0 0 0 / 70%);
+                    text-transform: uppercase;
+                    &.active {
+                         color: #2c98f0;
+                         border-bottom: 1px solid #2c98f0;
+                    }
+               }
+          }
+     }
+     @media screen and (min-width: 768px) {
+          & div {
+               width: 150px;
+               height: 150px;
+          }
+     }
+}

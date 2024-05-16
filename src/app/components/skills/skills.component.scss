@@ -1,0 +1,97 @@
+section {
+     padding-top: 4em;
+     padding-left: 2vw;
+     padding-bottom: 9em;
+     > p {
+          margin-bottom: 22.5px;
+     }
+     .col {
+          p {
+               color: #000;
+               font-size: 16px;
+               margin-bottom: 10px;
+          }
+          .progress {
+               height: 6px;
+               overflow: visible;
+               border-radius: 4px;
+               margin-bottom: 20px;
+               background-color: #f2f3f7;
+               .progress-bar {
+                    overflow: visible;
+                    position: relative;
+                    border-radius: 4px;
+                    &::after {
+                         top: 50%;
+                         right: -2px;
+                         width: 10px;
+                         height: 10px;
+                         content: "";
+                         border-radius: 50%;
+                         position: absolute;
+                         transform: translateY(-50%);
+                    }
+                    span {
+                         top: -22px;
+                         right: -10px;
+                         font-weight: 600;
+                         position: absolute;
+                    }
+               }
+          }
+          &:first-of-type .progress-bar {
+               background-color: #2c98f0;
+               &::after {
+                    background-color: #2c98f0;
+               }
+               span {
+                    color: #2c98f0;
+               }
+          }
+          &:nth-of-type(2) .progress-bar {
+               background-color: #ec5453;
+               &::after {
+                    background-color: #ec5453;
+               }
+               span {
+                    color: #ec5453;
+               }
+          }
+          &:nth-of-type(3) .progress-bar {
+               background-color: #f9bf3f;
+               &::after {
+                    background-color: #f9bf3f;
+               }
+               span {
+                    color: #f9bf3f;
+               }
+          }
+          &:nth-of-type(4) .progress-bar {
+               background-color: #a84cb8;
+               &::after {
+                    background-color: #a84cb8;
+               }
+               span {
+                    color: #a84cb8;
+               }
+          }
+          &:nth-of-type(5) .progress-bar {
+               background-color: #2fa499;
+               &::after {
+                    background-color: #2fa499;
+               }
+               span {
+                    color: #2fa499;
+               }
+          }
+          &:last-of-type .progress-bar {
+               background-color: #4054b2;
+               &::after {
+                    background-color: #4054b2;
+               }
+               span {
+                    color: #4054b2;
+               }
+          }
+     }
+}

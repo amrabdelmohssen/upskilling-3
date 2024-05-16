@@ -1,0 +1,26 @@
+main {
+     height: 100vh;
+     overflow: hidden;
+     max-height: 100vh;
+     .aside {
+          width: 20vw;
+          height: 100vh;
+          overflow-y: auto;
+     }
+     .content {
+          width: 75vw;
+          height: 100vh;
+          overflow-y: auto;
+          padding-right: 2vw;
+     }
+     @media screen and (min-width: 992px) {
+          & {
+               .aside {
+                    margin-left: 5vw;
+               }
+               .content {
+                    padding-right: 10vw;
+               }
+          }
+     }
+}
